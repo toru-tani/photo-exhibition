@@ -1,13 +1,16 @@
 body{
-  background-color: rgb(167, 204, 216);
+  background-color: rgb(167, 199, 216);
+  
 }
 .midasi,h2,h3{
   color: white;
+  
 }
 
 header{
   background-color: skyblue;
-  color: rgb(25, 134, 242); 
+  color: rgb(15, 131, 247); 
+  font-family:"Hiragino Sans","YuGothic";
  }
 /* .head {
   color: rgb(67, 152, 237);
@@ -28,6 +31,12 @@ button{
 
 button:hover{
   background-color:rgb(67, 152, 237);
+}
+
+.overview {
+  font-size: 1.2em;
+  border-bottom: 0.3em;
+  font-family:"Hiragino Sans","YuGothic";
 }
 
 .instagram {
@@ -70,10 +79,4 @@ hr {
 /* #lightbox .lb-container { padding: 0px; }
 #lightbox .lb-outerContainer { padding: 5px; } */
 
-.konosaitonituite {
-  /* margin-bottom: 0px;
-  border-bottom-style: dotted;
-  border-color: white; */
-  font-size: 1.5em;
-  border-bottom: 0.3em;
-}
+
