@@ -19,7 +19,7 @@
   </div>
   <link rel="stylesheet" href="style.css">
   <div class="midasi">
-    <h1>写真を高画質でダウンロードすることができます。</h1>
+    <h2>写真を高画質でダウンロードすることができます。</h2>
   </div>
   <h3>画像をクリックで拡大できます。</h3>
  
@@ -42,6 +42,14 @@
         <a href="IMG_3233.jpg" data-lightbox="group"><img src="IMG_3233.jpg" width="20%"></a>
         <p><a href="IMG_3233.jpg" download=""><button id="No4" onclick="changeColor4()">写真をダウンロード</button></a></p>
       </li>
+      <li>
+        <a href="IMG_7887.jpg" data-lightbox="group"><img src="IMG_7887.jpg" width="20%"></a>
+        <p><a href="IMG_7887.jpg" download=""><button id="No5" onclick="changeColor5()">写真をダウンロード</button></a></p>
+      </li>
+      <li>
+        <a href="IMG_8761.jpg" data-lightbox="group"><img src="IMG_8761.jpg" width="20%"></a>
+        <p><a href="IMG_8761.jpg" download=""><button id="No6" name="btn" onclick="changeColor6()">写真をダウンロード</button></a></p>
+      </li>
 
 
     </ul>
@@ -49,7 +57,7 @@
   <dl>
 
 
-    <div class="konosaitonituite">
+    <div class="overview">
       <dt>
         <h2>このサイトについて</h2>
       </dt>
@@ -90,6 +98,23 @@
     function changeColor4() {
       document.getElementById('No4').style.backgroundColor = 'rgb(25, 75, 87)';
     }
+    function changeColor5() {
+      document.getElementById('No5').style.backgroundColor = 'rgb(25, 75, 87)';
+    }
+    function changeColor6() {
+      document.getElementById('No6').style.backgroundColor = 'rgb(25, 75, 87)';
+    }
+    
+
+
+
+    document.getElementById("No1").onclick = function() {
+
+    }
+
+
+
+
 
 
     const browserName = navigator.appName;
